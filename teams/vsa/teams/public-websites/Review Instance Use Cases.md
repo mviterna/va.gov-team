@@ -39,6 +39,7 @@ Keep pace (remain agile) but ensure safeguards/rails are in place to mitigate of
 3. Off Cycle Deployments: There should be some sort of shortening of the build + ceremony processes for off cycle issues (See off-cycle pain points)
 4. Time on Staging: Time on Staging is not a feasible window for review and validateion. It would be optimal to have at least 24 hours of testing on staging before things get push to production environment. 
 5. Need a Sandbox Environment:  A sandbox environment would allow for more bake time in staging in order to reduce the amount of off-schedule deployments, validate builds and code in depth and ensure safe integration once promoted to production environment. 
+6. Back end datasets are not always consistant across environments. There are times when data cannot be synced quickly enough in the Staging environment and is not present on review instances.
 
 ## Feature Flag Challenges 
 ### Top level challenges with Feature Flag implimentation: 
